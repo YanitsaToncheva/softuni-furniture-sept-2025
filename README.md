@@ -26,9 +26,12 @@
 - [x] Add user service with register method
 - [x] Install bcrypt
 - [x] Hash password on register
-- [] Add login endpoint and service
-- [] Verify login credentials
-- [] Generate and return token `npm i jsonwebtoken`
+- [x] Add login endpoint and service
+- [x] Verify login credentials
+- [x] Generate and return token `npm i jsonwebtoken`
+- [x] Auto login after register
+- [] Create logout
+- [] Add auth middleware
 
 
 
