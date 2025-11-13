@@ -31,7 +31,7 @@
 - [x] Generate and return token `npm i jsonwebtoken`
 - [x] Auto login after register
 - [x] Create logout
-- [] Add auth middleware
+- [x] Add auth middleware
 
 
 
