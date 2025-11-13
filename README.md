@@ -24,8 +24,8 @@
 - [x] Add database and config `npm i mongoose`
 - [x] Add user model
 - [x] Add user service with register method
-- [] Install bcrypt
-- [] Hash password on register
+- [x] Install bcrypt
+- [x] Hash password on register
 
 
 
