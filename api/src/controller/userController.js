@@ -21,6 +21,11 @@ userController.post('/login', async (req, res) => {
         res.status(401).json({message: err.message});
     }
     
+});
+userController.get('/logout', (req, res) => {
+    //Invalidate token
+    res.status(204).json({ok: true});
+
 })
 
 
