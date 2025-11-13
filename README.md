@@ -28,10 +28,11 @@
 - [x] Hash password on register
 - [] Add login endpoint and service
 - [] Verify login credentials
-- [] Generate and return token
+- [] Generate and return token `npm i jsonwebtoken`
 
 
 
 ## Bonus 
+- [x] Use env variables `npm i dotenv`
 - [] Build with vite
 - [] Refactor services
