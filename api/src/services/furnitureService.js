@@ -9,6 +9,9 @@ export default {
             img: true,
         });
     },
+    getOne(furnitureId) {
+        return Furniture.findById(furnitureId);
+    },
     create(furnitureData) {
         return Furniture.create(furnitureData)
     }
