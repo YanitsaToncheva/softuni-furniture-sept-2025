@@ -35,8 +35,10 @@
 
 ## Furniture Endpoints
 - [x] Add furniture model
-- [] Add furniture service
-- [] Create furniture endpoint
+- [x] Add furniture service
+- [x] Create furniture endpoint
+
+## Error Handling
 
 ## Bonus 
 - [x] Use env variables `npm i dotenv`
