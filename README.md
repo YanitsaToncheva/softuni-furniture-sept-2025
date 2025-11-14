@@ -33,7 +33,10 @@
 - [x] Create logout
 - [x] Add auth middleware
 
-
+## Furniture Endpoints
+- [x] Add furniture model
+- [] Add furniture service
+- [] Create furniture endpoint
 
 ## Bonus 
 - [x] Use env variables `npm i dotenv`
