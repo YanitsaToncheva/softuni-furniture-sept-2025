@@ -17,5 +17,8 @@ export default {
             ...furnitureData,
             _ownerId: ownerId,
         });
+    },
+    update(furnitureId, furnitureData) {
+        return Furniture.findByIdAndUpdate(furnitureId, furnitureData, { runValidators: true});
     }
 }
