@@ -2,8 +2,8 @@ import Furniture from "../models/Furniture.js"
 
 export default {
 
-    getAll() {
-        return Furniture.find().select({
+    getAll(filter) {
+        return Furniture.find(filter).select({
             description: true,
             price: true,
             img: true,
@@ -21,7 +21,8 @@ export default {
     update(furnitureId, furnitureData) {
         return Furniture.findByIdAndUpdate(furnitureId, furnitureData, { runValidators: true});
     },
-    delete(furnitureId) {
-        return Furniture.findByIdAndDelete(furnitureId);
+    delete(furnitureId, userId) {
+        //return Furniture.findByIdAndDelete(furnitureId);
+        return Furniture.deleteOne({id: furnitureId, _owner: userId})
     }
 }
