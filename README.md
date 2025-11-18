@@ -47,7 +47,7 @@
 
 ## Error Handling
 - [x] Create error util for message
-- [] Global error handler
+- [x] Global error handler
 ## Bonus 
 - [x] Use env variables `npm i dotenv`
 - [] Build with vite
