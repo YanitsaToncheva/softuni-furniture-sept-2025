@@ -46,7 +46,8 @@
 - [x] Filter furniture by userId
 
 ## Error Handling
-- [] Create error util for message
+- [x] Create error util for message
+- [] Global error handler
 ## Bonus 
 - [x] Use env variables `npm i dotenv`
 - [] Build with vite
