@@ -50,6 +50,6 @@
 - [x] Global error handler
 ## Bonus 
 - [x] Use env variables `npm i dotenv`
-- [] Build with vite
-- [] Refactor services
+- [x] Build with vite
+- [x] Refactor services
 - [] Invalidate token
